@@ -29,9 +29,30 @@ def example4(manatees):
  
 
 
-""" Solution """
+""" Clues """
 """ Check your answer to Example 1. Since there is a for loop that iterates over the manatees list, you'll probably need n in your efficiency!
 Check your answer to Example 2. Remember to approximate - you should reduce any numbers that you multiply by to 1, and anything you add by to 0.
 Check your answer to Example 3. Since there is a for loop that iterates over the manatees list, you'll probably need n in your efficiency!
 Check your answer to Example 4. Remember the notation for efficiency: O(x), where x will be some combination of numbers, n, and m."""
+
+
+
+""" Solutions """
+""" Here are the answers and explanations:
+
+Example 1
+We iterate over every manatee in the manatees list with the for loop. Since we're given that manatees has n elements, our code will take approximately O(n) time to run.
+
+Example 2
+We look at two specific properties of a specific manatee. We aren't iterating over anything - just doing constant-time lookups on lists and dictionaries. Thus the code will complete in constant, or O(1), time.
+
+Example 3
+There are two for loops, and nested for loops are a good sign that you need to multiply two runtimes. Here, for every manatee, we check every property. If we had 4 manatees, each with 5 properties, then we would need 5+5+5+5 steps. This logic simplifies to the number of manatees times the number of properties, or O(nm).
+
+Example 4
+Again we have nested for loops. This time we're iterating over the manatees list twice - every time we see a manatee, we compare it to every other manatee's age. We end up with O(nn), or O(n^2) (which is read as "n squared").
+
+
+
+Throughout the course, you can reference the Big-O Cheat Sheet (https://www.bigocheatsheet.com/) to keep track of time complexities for many of the algorithms and data structures we study."""
 
