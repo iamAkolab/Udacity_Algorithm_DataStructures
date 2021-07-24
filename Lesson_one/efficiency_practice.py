@@ -25,3 +25,13 @@ def example4(manatees):
             else:
                 oldest_manatee = manatee1['name']
     print oldest_manatee
+
+ 
+
+
+""" Solution """
+""" Check your answer to Example 1. Since there is a for loop that iterates over the manatees list, you'll probably need n in your efficiency!
+Check your answer to Example 2. Remember to approximate - you should reduce any numbers that you multiply by to 1, and anything you add by to 0.
+Check your answer to Example 3. Since there is a for loop that iterates over the manatees list, you'll probably need n in your efficiency!
+Check your answer to Example 4. Remember the notation for efficiency: O(x), where x will be some combination of numbers, n, and m."""
+
