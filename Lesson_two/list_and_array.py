@@ -14,4 +14,4 @@ However, there's a lot of code built into the infrastructure in this way that ca
 Keep this in the back of your mind when using Python. You likely won't need to know the details of how Python works behind the scenes in a programming interview, 
 but you'll seem very impressive if you do!
 
-If you aren't already comfortable with Python lists, you can look through this lesson(https://wiki.python.org/moin/TimeComplexity) about basic Python list manipulation"
+If you aren't already comfortable with Python lists, you can look through this lesson(https://wiki.python.org/moin/TimeComplexity) about basic Python list manipulation """"
