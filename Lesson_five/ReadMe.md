@@ -1,5 +1,5 @@
 """
 
-Trees and more
+Trees
 
 """
